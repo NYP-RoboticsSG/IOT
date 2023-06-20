@@ -11,8 +11,8 @@ import os
 sensor = dht.DHT11(Pin(4))
 led = Pin('LED', Pin.OUT)
 
-WIFI_SSID     = 'thef_home'
-WIFI_PASSWORD = 'kzbev83544'
+WIFI_SSID     = 'xxxxxx'
+WIFI_PASSWORD = 'xxxxxxxxx'
 
 # WIFI_SSID     = 'Tertiary infotech'
 # WIFI_PASSWORD = 'Tertiary888'
@@ -23,8 +23,8 @@ mqtt_client_id      = bytes('client_'+str(random_num), 'utf-8') # Just a random 
 #Adafruit credientails
 
 ADAFRUIT_IO_URL     = 'io.adafruit.com' 
-ADAFRUIT_IO_USERNAME = "edwinf"
-ADAFRUIT_IO_KEY = "aio_dsnN40e9rIuYQlbqP66F1eE14YfM"
+ADAFRUIT_IO_USERNAME = "xxxxx"
+ADAFRUIT_IO_KEY = "xxxxxxxxxx"
 
 TEMP_FEED_ID      = 'temperature'
 HUM_FEED_ID       = 'humidity'
